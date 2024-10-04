@@ -1,0 +1,1 @@
+export { QuestionComponent } from "./ui/question";
