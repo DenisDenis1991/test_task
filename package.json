@@ -1,14 +1,16 @@
 {
-  "name": "timer",
+  "name": "test_task",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://denisdenis1991.github.io/task_test",
+  "homepage": "https://denisdenis1991.github.io/task_test/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -38,6 +40,5 @@
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1",
     "vite-plugin-svgr": "^4.2.0"
-    
   }
 }
