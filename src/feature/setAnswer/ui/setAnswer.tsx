@@ -35,7 +35,6 @@ export const SetAnswer: React.FC<IsetAnswerProps> = ({ step, form }) => {
     resetStores();
     localStorage.removeItem('answerList')
   }
-  console.log(isTimerFinished);
   
   return (
     <Form.Item>
