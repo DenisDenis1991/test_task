@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://denisdenis1991.github.io/task_test/",
+  "homepage": "https://denisdenis1991.github.io/test_task/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
